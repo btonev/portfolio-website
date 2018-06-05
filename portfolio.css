@@ -1,0 +1,266 @@
+
+body {
+	margin-left:0px;
+	margin-right:0px;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* ******************* */
+/* Navigation Bar */
+/* ******************* */
+.selected {
+	border-bottom: 2px solid #FF7D44;
+	padding:2px;
+	
+}
+
+.header {
+	font-size:1em;
+	color: black;
+	list-style: none;
+	text-align: left;
+	border-bottom: 1px solid grey;
+	width: 100%;
+ 	height: 50px;
+	padding: 15px;
+}
+
+.header > ul {
+	margin:0px;
+}
+
+.header > ul > li {
+	display:inline-block;
+	padding:15px;
+	list-style:none;
+  margin:10px;
+  float: right;
+	margin-right: 50px;
+}
+.header > ul > li:first-child {
+	float:left;
+}
+.header > ul > li > span > a {
+	text-decoration: none;
+	color: black;
+}
+
+
+/* ******************* */
+/* Adjustments to put navigation buttons on the down right side */
+/* ******************* */
+
+.center-right {
+	margin-top:170px;
+	text-align: right;
+	font-size: 0.9em;
+}
+
+/* ******************* */
+/* Grid Container and Items     */
+/* ******************* */
+
+.container-margin-top {
+	margin-top: 50px;
+}
+
+.container-margin-top-ext {
+	margin-top: 100px;
+}
+
+.grid-container {
+  	display: grid;
+  	grid-column-gap: 20px;
+		grid-template-columns: auto auto 400px 100px auto;
+  	margin-bottom: 120px;
+  	margin-top: 100px;
+}
+
+.grid-item {
+	grid-column-start: 2;
+  	background-color: rgba(255, 255, 255, 0.8);
+  	border-radius: 5px;
+  	text-align: center;
+  	
+}
+.grid-item2 {
+	grid-column-start: 3;
+	border-radius: 2px;
+	
+}
+.grid-item2 h2 {
+	margin-top: 0px;
+	
+}
+
+
+.item-text a {
+	color: #000;
+	border: 2px solid #111;
+	text-decoration: none;
+	background-color: #33dacb;
+	padding:5px;
+
+}
+
+
+
+/* ******************* */
+/* Item Image Adjustment*/
+/* ******************* */
+
+
+
+.item-image {
+	background-image: url('image/me.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.item-image2 {
+	background-image: url('image/firstwebsite.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-right: 30px;
+}
+
+.item-image3 {
+	background-image: url('image/secondwebsite.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+a:link {
+	text-decoration: none
+}
+
+
+
+/* ******************* */
+/* Adjustments to center current items*/
+/* ******************* */
+
+.review-items {	
+	width:800px;
+	margin: auto auto;
+	font-size: 1.0em;
+	background-color: white;
+	
+}
+.border-line {
+	border-top: 1px solid #8c8b8b;
+}
+.class-push {
+	margin-top: 50px;
+}
+
+.review-items-title {
+	margin-top: 80px;
+	text-align: center;
+	color: #FF7D44;
+}
+
+
+/* ******************* */
+/* Title Adjustment*/
+/* ******************* */
+
+.title {
+  padding:10px;
+  color:white;
+  font-size: 1.5em;
+}
+
+/* ******************* */
+/* Title Front Cover Adjustment*/
+/* ******************* */
+
+.title-left {
+	padding-top: 350px;
+	font-size: 2.0em;
+}
+
+/* ******************* */
+/* Student-Review classes
+/* ******************* */
+
+.student-review-title {
+	font-size: 1.1em;
+}
+
+.student-name-class {
+	margin-top: 30px;
+	margin-bottom: 70px;
+	color: #FF7D44;
+}
+
+/* ******************* */
+/* Footer*/
+/* ******************* */
+
+.footer {  
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #33dacb;
+  box-shadow: 2px 2px 8px #111;
+}
+
+
+
+
+/* ******************* */
+/* Grid-Container-Projects*/
+/* ******************* */
+
+.grid-container-projects {
+  	display: grid;
+  	
+		grid-template-columns:  auto auto  900px 900px auto;
+  	margin-bottom: 120px;
+  	margin-top: 100px;
+}
+
+
+
+/* ******************* */
+/* Grid-Container-Project-One*/
+/* ******************* */
+
+
+.grid-item-projects-one {
+		grid-column-start: 1;
+  	background-color: rgba(255, 255, 255, 0.8);
+  	border-radius: 0px;
+  	text-align: center;
+  	height: 700px;
+		width: 900px;
+	
+		
+}
+
+/* ******************* */
+/* Grid-Container-Project-Two*/
+/* ******************* */
+
+
+.grid-item-projects-two {
+		grid-column-start: 2;
+  	background-color: rgba(255, 255, 255, 0.8);
+  	border-radius: 0px;
+  	text-align: center;
+		height: 700px;
+		width: 1000px;
+		padding-bottom: 20px;
+		
+}
